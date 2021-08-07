@@ -1,0 +1,241 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.wrapper {
+}
+
+/* Left section 
+    Base information section
+*/
+
+.base-information {
+    background-clip: content-box;
+}
+
+.base-information__main {
+    padding-top: 0.15px;
+    padding-bottom: 0.15px;
+    box-shadow: 0 0 4px 3px rgba(0,0,0,0.2);
+    background-color: #fff;
+}
+
+.base-information__main__person-info {
+}
+
+.base-information__main__person-info__img {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.base-information__main__person-info__img img {
+    display: block;
+    width: 100%;
+}
+
+.base-information__main__person-info__img h2 {
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    color: #000;
+    font-weight: 400;
+}
+
+.base-information__main > div:not(:first-child),
+.base-information__main__person-info-dis {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.base-information__main__person-info-dis > p  {
+    color: #757677;
+}
+
+.base-information__main__person-info-dis > p > i {
+    min-width: 36px;
+    font-size: 18px;
+    color:#009688;
+}
+
+/* Skill and Language section */
+
+.base-information__main > div:not(:first-child) p {
+    color: #757575;
+}
+
+.base-information__main > div:not(:first-child) p i{
+    color: #009688;
+    margin-right: 16px;
+}
+
+.base-information__main > div:not(:first-child) p[class*="width-exp"] {
+    background-color: #f1f1f1;
+    position: relative;
+    width: 100%;
+    border-radius: 16px;
+    min-height: 17.6px;
+}
+
+.base-information__main > div:not(:first-child) p[class*="width-exp"] span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    font-size: 12px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: #009688;
+    text-align: center;
+    height: 100%;
+}
+
+.base-information__main__languages p[class*="width-exp"] {
+    min-height: 24px!important;
+}
+
+.base-information__main__languages p:first-child {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.width-exp-100 span {
+    width: 100%;
+}
+
+.width-exp-90 span{
+    width: 90%;
+}
+
+.width-exp-80 span{
+    width: 80%;
+}
+
+.width-exp-75 span{
+    width: 75%;
+}
+
+.width-exp-50 span{
+    width: 50%;
+}
+
+.width-exp-25 span{
+    width: 25%;
+}
+
+/* Work Experiance and Education section */
+
+.exp-and-edu {
+    color: #757575;
+}
+
+.exp-and-edu > div {
+    background-color: #fff;
+}
+
+.exp-and-edu__work-exp,
+.exp-and-edu__edu {
+    padding-top: 0.15px;
+    padding-bottom: 0.15px;
+    box-shadow: 0 0 4px 3px rgba(0,0,0,0.2);
+}
+
+.exp-and-edu__work-exp h1,
+.exp-and-edu__edu h1 {
+    font-size: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.exp-and-edu__work-exp h1 i,
+.exp-and-edu__edu h1 i {
+    margin-left: 16px;
+    font-size: 36px;
+}
+
+.exp-and-edu__work-exp h5,
+.exp-and-edu__edu h5 {
+    color: #000;
+    font-size: 18px;
+    opacity: 0.6;
+    text-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+.exp-and-edu__work-exp h6,
+.exp-and-edu__edu h6 {
+    color: #009688;
+    font-size: 16px;
+}
+
+.exp-and-edu__work-exp h6 span {
+    color: #fff;
+    background-color: #009688;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.exp-and-edu__work-exp p,
+.exp-and-edu__edu p {
+    color: #000;
+}
+
+.exp-and-edu__work-exp h1,
+.exp-and-edu__work-exp h5,
+.exp-and-edu__work-exp h6,
+.exp-and-edu__edu h1,
+.exp-and-edu__edu h5,
+.exp-and-edu__edu h6 {
+    font-weight: 400;
+}
+
+
+.exp-and-edu__work-exp i,
+.exp-and-edu__edu i {
+    color: #009688;
+    margin-right: 16px;
+}
+
+.exp-and-edu__work-exp__menu,
+.exp-and-edu__edu__menu {
+    padding-left: 32px;
+    padding-right: 16px;
+}
+
+.separate-range {
+    display: block;
+    border-top: 1px solid transparent;
+}
+
+/* Footer section */
+
+.footer {
+    background-color: #009688;
+}
+
+.footer__main__content {
+    text-align: center;
+    color: #fff;
+}
+
+.footer__main__content i {
+    font-size: 18px;
+}
+
+.footer__main__content a {
+    color: #fff;
+    margin-left: 8px;
+
+}
+
+.footer__main__content i:hover,
+.footer__main__content a:hover {
+    opacity: 0.6;
+}
+
+

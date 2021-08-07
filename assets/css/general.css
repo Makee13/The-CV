@@ -1,0 +1,70 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+b {
+    font-size: 18px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+li {
+    list-style: none;
+}
+
+@media (max-width: 739px) {
+
+    .row.separate-site {
+        margin-top: unset!important;
+    }
+
+    .exp-and-edu {
+        margin-top: 16px!important;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .exp-and-edu__work-exp h5,
+    .exp-and-edu__edu h5 {
+         font-size: 25px!important;
+    }
+
+    .base-information__main > div:not(:first-child) p b {
+        font-size: 22px!important;
+    }
+
+    .base-information__main > div:not(:first-child) p[class*="width-exp"] {
+        min-height: 20px!important;
+    }
+}
